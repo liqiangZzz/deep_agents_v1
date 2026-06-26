@@ -1,12 +1,11 @@
 import asyncio
 from typing import AsyncIterator
 
-from agent.backend.Store import agent
+from agent.backend.Composite import agent  # CompositeBackend 组合后端
 
 
+# from agent.backend.Store import agent  # StoreBackend 持久化存储后端
 # from agent.backend.LocalShell import agent  # LocalShellBackend 本地Shell后端
-
-
 # from agent.backend.Filesystem import agent  # FilesystemBackend 本地磁盘后端
 
 
