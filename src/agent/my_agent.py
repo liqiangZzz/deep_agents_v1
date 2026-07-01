@@ -4,8 +4,8 @@ from typing import AsyncIterator
 from deepagents import create_deep_agent
 from langgraph.checkpoint.memory import InMemorySaver
 
-from model.init_chat_model import glm_llm
 from agent.my_tools import web_search
+from model.init_chat_model import glm_llm
 
 # =====================================================================
 # 1. 创建 Deep Agent —— 注入共享模型、工具和系统提示词
